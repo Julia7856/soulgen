@@ -1,1 +1,152 @@
 # soulgen
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SoulGen — Творчество для всех</title>
+  <meta name="description" content="Платформа для людей с ОВЗ: изображения, видео, музыка, дизайн." />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f9f0ff, #ffe6f2, #e6f7ff);
+      min-height: 100vh;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2.5rem;
+      background: linear-gradient(90deg, #7c4dff, #ff4081);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background: #7c4dff;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover { transform: scale(1.05); }
+    .btn.secondary {
+      background: #ff4081;
+    }
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .courses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 40px 0;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin: 15px 0;
+      color: #555;
+    }
+    .hand {
+      width: 200px;
+      height: 200px;
+      background: url('https://placehold.co/200x200/ffffff/7c4dff?text=🤝') no-repeat center;
+      margin: 40px auto;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #555;
+      font-size: 0.95rem;
+      background: #f8f3ff;
+      border-top: 1px solid #e0d0ff;
+    }
+    footer p {
+      margin: 8px 0;
+    }
+    footer strong {
+      font-size: 1.1rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨ SoulGen</h1>
+  </header>
+
+  <div class="hero">
+    <h2>Твоя душа — твой генератор</h2>
+    <p>Платформа для людей с ОВЗ: создание изображений, видео, музыки и дизайна.</p>
+    
+    <div class="hand"></div>
+
+    <button class="btn">Начать творить</button>
+    <button class="btn secondary">О курсах</button>
+  </div>
+
+  <div class="content">
+    <div class="courses">
+      <div class="card">
+        <div style="font-size: 4rem;">🎨</div>
+        <h3>Генерация изображений</h3>
+        <p>Учись создавать картины с помощью нейросетей</p>
+      </div>
+      <div class="card">
+        <div style="font-size: 4rem;">🎬</div>
+        <h3>Видео и монтаж</h3>
+        <p>Создавай свои ролики и истории</p>
+      </div>
+      <div class="card">
+        <div style="font-size: 4rem;">🎵</div>
+        <h3>Музыка и звук</h3>
+        <p>Композиция, сведение, электронная музыка</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>© 2025 SoulGen</strong></p>
+    <p style="margin: 10px 0;">Создано в соавторстве:</p>
+    <p style="font-style: italic; color: #555;">
+      ❤️ Твоя идея, забота и миссия<br>
+      💡 и мой цифровой инструмент — вместе ради людей с ОВЗ
+    </p>
+    <p style="font-size: 0.9rem; color: #666; margin-top: 20px;">
+      Этот проект — пример того, как человек и технологии могут работать рука об руку, 
+      чтобы помочь тем, кто в этом нуждается.
+    </p>
+    <p style="font-size: 0.8rem; color: #999; margin-top: 20px;">
+      Сделано с заботой, терпением и верой в каждого.
+    </p>
+  </footer>
+</body>
+</html>
